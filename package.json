@@ -12,6 +12,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-rnd": "^10.5.3",
+    "remixicon": "^4.9.1",
     "sass": "^1.99.0"
   },
   "devDependencies": {

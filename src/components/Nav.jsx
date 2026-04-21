@@ -39,6 +39,10 @@ const Nav = () => {
           <Datetime/>
         </div>
 
+        <div className="nav-item">
+          <i className="ri-battery-low-line"></i>
+        </div>
+
       </div>
 
 

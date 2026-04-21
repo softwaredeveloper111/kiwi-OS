@@ -16,6 +16,10 @@ nav{
   {
     font-size:.8rem
   }
+
+  i{
+    font-size: 1rem;
+  }
   
   .left{
     display: flex;
@@ -26,7 +30,7 @@ nav{
   .right{
     display: flex;
     gap: .9rem;
-    
+    align-items: center;
   }
 
 }
