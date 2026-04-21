@@ -2,7 +2,7 @@ import './App.scss'
 import Dock from './components/Dock'
 import Nav from './components/Nav'
 import 'remixicon/fonts/remixicon.css'
-import Macwindow from './components/Windows/Macwindow'
+import Github from './components/Windows/Github'
 
 const App = () => {
   return (
@@ -11,9 +11,8 @@ const App = () => {
 
       <Nav/>
       <Dock/>
-
-
-      <Macwindow/>
+      
+      <Github/>
       
     </main>
   )

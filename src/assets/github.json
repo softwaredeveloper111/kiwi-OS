@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/project1/600/400",
+    "title": "AI Task Manager",
+    "description": "An AI-powered task management app that prioritizes tasks and suggests optimal schedules.",
+    "tags": ["React", "Node.js", "OpenAI", "MongoDB"],
+    "repoLink": "https://github.com/username/ai-task-manager",
+    "demoLink": "https://ai-task-manager-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/project2/600/400",
+    "title": "Realtime Chat App",
+    "description": "A scalable real-time chat application with WebSocket support and group messaging.",
+    "tags": ["React", "Socket.io", "Express", "Redis"],
+    "repoLink": "https://github.com/username/realtime-chat-app",
+    "demoLink": "https://realtime-chat-demo.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/seed/project3/600/400",
+    "title": "Dev Portfolio Builder",
+    "description": "A no-code portfolio generator for developers with customizable templates.",
+    "tags": ["Next.js", "Tailwind", "Firebase"],
+    "repoLink": "https://github.com/username/portfolio-builder",
+    "demoLink": "https://portfolio-builder-demo.vercel.app"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/seed/project4/600/400",
+    "title": "Goal Tracker Pro",
+    "description": "Track daily goals with heatmaps, streaks, and performance analytics.",
+    "tags": ["React", "Node.js", "MongoDB", "Chart.js"],
+    "repoLink": "https://github.com/username/goal-tracker-pro",
+    "demoLink": "https://goal-tracker-demo.vercel.app"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/seed/project5/600/400",
+    "title": "E-commerce Platform",
+    "description": "Full-stack e-commerce platform with payment integration and admin dashboard.",
+    "tags": ["Next.js", "Stripe", "PostgreSQL", "Prisma"],
+    "repoLink": "https://github.com/username/ecommerce-platform",
+    "demoLink": "https://ecommerce-demo.vercel.app"
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/seed/project6/600/400",
+    "title": "AI Code Reviewer",
+    "description": "Automatically reviews code and suggests improvements using AI.",
+    "tags": ["Python", "FastAPI", "OpenAI", "Docker"],
+    "repoLink": "https://github.com/username/ai-code-reviewer",
+    "demoLink": "https://ai-code-reviewer-demo.vercel.app"
+  }
+]
