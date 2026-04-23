@@ -3,6 +3,7 @@ import Dock from './components/Dock'
 import Nav from './components/Nav'
 import 'remixicon/fonts/remixicon.css'
 import Github from './components/Windows/Github'
+import Note from './components/Windows/Note'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Nav/>
       <Dock/>
       
-      <Github/>
+      {/* <Github/> */}
+      <Note/>
       
     </main>
   )

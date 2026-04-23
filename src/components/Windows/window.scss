@@ -10,6 +10,20 @@
   font-weight: 500;
   font-size: .95rem;
 
+  ::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+
   .nav{
 
     padding-inline: 0.75rem;

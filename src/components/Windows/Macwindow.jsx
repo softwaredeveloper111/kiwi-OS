@@ -9,7 +9,7 @@ const Macwindow = ({children}) => {
        width:"40vw",
       height:"40vw",
       x:300,
-      y:200
+      y:50
     }}
     >
       

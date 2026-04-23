@@ -1,3 +1,4 @@
+
 /**
  * @file: profile.config.ts
  * @author: Engineering Portfolio
@@ -93,7 +94,6 @@ const education = new Map<string, string>([
 
 export default new ProfessionalHistory();
 
-
 ```bash
 # TERMINAL OUTPUT
 # ---------------------------------------
@@ -103,3 +103,5 @@ $ user --status
 > Loading Assets... [||||||||||] 100%
 > Ready.
 ```
+
+
