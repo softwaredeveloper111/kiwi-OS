@@ -1,48 +1,48 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/seed/project1/600/400",
-    "title": "AI Task Manager",
-    "description": "An AI-powered task management app that prioritizes tasks and suggests optimal schedules.",
-    "tags": ["React", "Node.js", "OpenAI", "MongoDB"],
-    "repoLink": "https://github.com/username/ai-task-manager",
-    "demoLink": "https://ai-task-manager-demo.vercel.app"
+    "image": "/github project images/moodify.png",
+    "title": "Moodify - Suggest song based on your mood",
+    "description": "An AI-powered songs management app that suggests songs based on your mood.",
+    "tags": ["React", "Node.js", "google mediapipe model", "MongoDB"],
+    "repoLink": "https://github.com/softwaredeveloper111/moodify-Ai-suggest-you-songs.git",
+    "demoLink": "https://moodify-ai-suggest-you-songs.onrender.com"
   },
   {
     "id": 2,
-    "image": "https://picsum.photos/seed/project2/600/400",
+    "image": "/github project images/real time chat editor.png",
     "title": "Realtime Chat App",
     "description": "A scalable real-time chat application with WebSocket support and group messaging.",
     "tags": ["React", "Socket.io", "Express", "Redis"],
-    "repoLink": "https://github.com/username/realtime-chat-app",
-    "demoLink": "https://realtime-chat-demo.vercel.app"
+    "repoLink": "https://github.com/softwaredeveloper111/chat-application.git",
+    "demoLink": "https://chat-application-b8js.onrender.com"
   },
   {
     "id": 3,
-    "image": "https://picsum.photos/seed/project3/600/400",
-    "title": "Dev Portfolio Builder",
-    "description": "A no-code portfolio generator for developers with customizable templates.",
-    "tags": ["Next.js", "Tailwind", "Firebase"],
-    "repoLink": "https://github.com/username/portfolio-builder",
-    "demoLink": "https://portfolio-builder-demo.vercel.app"
+    "image": "/github project images/real time code editor.png",
+    "title": "realtime code editor",
+    "description": "A code editor where multiple users can write code and see the output in realtime and chat with other users.",
+    "tags": ["react", "Tailwind", "moncaco editor", "socket.io", "node.js", "MongoDB" ],
+    "repoLink": "https://github.com/softwaredeveloper111/CodeForge-A-real-time-code-editor.git",
+    "demoLink": "https://codeforge-a-real-time-code-editor.onrender.com"
   },
   {
     "id": 4,
-    "image": "https://picsum.photos/seed/project4/600/400",
-    "title": "Goal Tracker Pro",
+    "image": "/github project images/calender marker.png",
+    "title": "Goal Tracker Calender",
     "description": "Track daily goals with heatmaps, streaks, and performance analytics.",
-    "tags": ["React", "Node.js", "MongoDB", "Chart.js"],
-    "repoLink": "https://github.com/username/goal-tracker-pro",
-    "demoLink": "https://goal-tracker-demo.vercel.app"
+    "tags": ["React", "Node.js", "MongoDB", "Express"],
+    "repoLink": "https://github.com/softwaredeveloper111/goal-tracker.git",
+    "demoLink": "https://goal-tracker-bdwq.onrender.com"
   },
   {
     "id": 5,
-    "image": "https://picsum.photos/seed/project5/600/400",
-    "title": "E-commerce Platform",
-    "description": "Full-stack e-commerce platform with payment integration and admin dashboard.",
-    "tags": ["Next.js", "Stripe", "PostgreSQL", "Prisma"],
-    "repoLink": "https://github.com/username/ecommerce-platform",
-    "demoLink": "https://ecommerce-demo.vercel.app"
+    "image": "/github project images/khatabook.png",
+    "title": "Khatabook",
+    "description": "manage your expenses with ease.",
+    "tags": ["react", "node.js", "MongoDB", "Express"],
+    "repoLink": "https://github.com/softwaredeveloper111/khatabook.git",
+    "demoLink": "https://khatabook-g6vm.onrender.com"
   },
   {
     "id": 6,
