@@ -304,6 +304,8 @@ Your code is clean. Nothing to commit. 😎`;
           }
           promptLabel={"souravgiri:~$"}
           promptLabelStyle={{ color: "#00f000" }}
+          inputStyle={{ color: '#FFAA5C' }}            
+          messageStyle={{ color: '#FF69B4' }}
         />
       </div>
     </Macwindow>
