@@ -2,9 +2,9 @@ import "./resume.scss"
 import Macwindow from "./Macwindow"
 
 
-const Resume = () => {
+const Resume = ({windowName , setWindowsState}) => {
   return (
-    <Macwindow>
+    <Macwindow windowName={windowName}  setWindowsState={setWindowsState}>
 
        
      <div className="resume-window">
