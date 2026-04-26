@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./app.scss";
 import Dock from "./components/Dock";
 import Nav from "./components/Nav";
 import "remixicon/fonts/remixicon.css";
