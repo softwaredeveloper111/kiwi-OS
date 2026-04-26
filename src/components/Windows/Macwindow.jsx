@@ -14,6 +14,8 @@ const Macwindow = ({children,height="50vh",width="40vw",windowName , setWindowsS
       x:300,
       y:50
     }}
+    dragHandleClassName="nav"
+     enableResizing={true}
     >
       
       <div className="window">
