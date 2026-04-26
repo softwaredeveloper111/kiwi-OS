@@ -60,10 +60,35 @@
     );
   }
 
+  .acitivity_monitor{
+    
+    background-color: grey;
+    img{
+    height: 2rem;
+    width: 2rem;
+    object-fit: cover;
+    }
+  
+  }
+
+
+  .photobooth{
+    background-color: tomato;
+    img{
+    height: 2rem;
+    width: 2rem;
+    object-fit: cover;
+    }
+  }
+
+
   .icon:hover{
     transform: scale(1.25) translateY(-20%);
     
   }
+
+
+
 
 
   .icon:hover + .icon,

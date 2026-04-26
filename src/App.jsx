@@ -7,7 +7,9 @@ import Note from "./components/Windows/Note";
 import Resume from "./components/Windows/Resume";
 import Spotify from "./components/Windows/Spotify";
 import Cli from "./components/Windows/Cli";
+import ActivityMonitor from "./components/Windows/ActivityMonitor";
 import { useState } from "react";
+import PhotoBooth from "./components/Windows/PhotoBooth";
 
 const App = () => {
   const [windowsState, setWindowsState] = useState({
@@ -16,6 +18,8 @@ const App = () => {
     resume: false,
     spotify: false,
     cli: false,
+    activityMonitor: false,
+    photoBooth: false
   });
 
   return (
@@ -24,36 +28,47 @@ const App = () => {
       <Dock windowsState={windowsState} setWindowsState={setWindowsState} />
 
       {windowsState.github && (
-        <Github
-          windowName="github"
-          setWindowsState={setWindowsState}
-        />
+        <Github windowName="github" setWindowsState={setWindowsState} />
       )}
+      
+
       {windowsState.note && (
-        <Note
-          windowName="note"
-          setWindowsState={setWindowsState}
-        />
+        <Note windowName="note" setWindowsState={setWindowsState} />
       )}
+
+
       {windowsState.resume && (
-        <Resume
-          windowName="resume"
+        <Resume windowName="resume" setWindowsState={setWindowsState} />
+      )}
+
+
+      {windowsState.spotify && (
+        <Spotify windowName="spotify" setWindowsState={setWindowsState} />
+      )}
+
+
+      {windowsState.cli && (
+        <Cli windowName="cli" setWindowsState={setWindowsState} />
+      )}
+
+
+      {windowsState.activityMonitor && (
+        <ActivityMonitor
+          windowName="activityMonitor"
           setWindowsState={setWindowsState}
         />
       )}
 
-      {windowsState.spotify && (
-        <Spotify
-          windowName="spotify"
-          setWindowsState={setWindowsState}
-        />
+
+
+      {windowsState.photoBooth && (
+      <PhotoBooth
+      windowName="photoBooth"
+       setWindowsState={setWindowsState}
+      />
       )}
-      {windowsState.cli && (
-        <Cli
-          windowName="cli"
-          setWindowsState={setWindowsState}
-        />
-      )}
+
+
     </main>
   );
 };

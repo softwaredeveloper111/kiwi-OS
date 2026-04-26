@@ -80,6 +80,28 @@ const Dock = ({ windowsState, setWindowsState }) => {
         <img src="/dock-icons/link.svg" alt="" />{" "}
       </div>
 
+      
+
+
+       <div
+        onClick={() => clickEventHandler("activityMonitor")}
+        className="icon acitivity_monitor"
+      >
+        {" "}
+        <img src="/dock-icons/Mac_Activity_Monitor.png" alt="" />{" "}
+      </div>
+
+
+
+
+       <div
+        onClick={() => clickEventHandler("photoBooth")}
+        className="icon photobooth"
+      >
+        {" "}
+        <img src="/dock-icons/photobooth.png" alt="" />{" "}
+      </div>
+
 
 
 
@@ -89,6 +111,9 @@ const Dock = ({ windowsState, setWindowsState }) => {
         {" "}
         <img src="/dock-icons/cli.svg" alt="" />{" "}
       </div>
+
+
+
     </footer>
   );
 };
