@@ -1,4 +1,4 @@
-import "./cli.scss";
+import "./Cli.scss";
 import Terminal from "react-console-emulator";
 import Macwindow from "./Macwindow";
 import { useState, useRef, useEffect } from "react";
